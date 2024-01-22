@@ -36,7 +36,8 @@
                     colors: {
                         'primary-color': '#FF4240',
                         'secondary-color': '#131318',
-                        'grey-color': '#424247'
+                        'grey-color': '#424247',
+                
                     }
                 }
             }
@@ -80,7 +81,7 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <i class="fa-solid fa-magnifying-glass mr-4 text-grey-color"></i>
+                <i class="fa-solid fa-magnifying-glass mr-4 text-grey-color hidden lg:flex"></i>
                 <button class="btn bg-primary-color text-white">Get Ticket</button>
             </div>
         </div>
@@ -120,7 +121,43 @@
     </div>
     </header>
     <!-- Main starts here -->
-    <main class="container mx-auto w-11/12 lg:w-3/4"></main>
+    <main class="container mx-auto w-11/12 lg:w-3/4 py-28">
+        <!-- progress radial section -->
+        <div>
+            <div class="divider"></div>
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="text-base py-10 text-grey-color">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            </div>
+            <div class="divider"></div>
+            <!-- progress container  -->
+            <div class="flex flex-col gap-4 lg:flex-row justify-around">
+                <div class="text-center">
+                    <div class="radial-progress text-primary text-red-500 font-extrabold" style="--value:87;" role="progressbar">87%</div>
+                    <h1 class="text-xl py-4 font-semibold">Prayer Facility</h1>
+                    <p class="text-base text-grey-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-primary text-green-400 font-extrabold" style="--value:95;" role="progressbar">95%</div>
+                    <h1 class="text-xl py-4 font-semibold">Experienced Coach</h1>
+                    <p class="text-base text-grey-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-primary text-yellow-400 font-extrabold" style="--value:90;" role="progressbar">90%</div>
+                    <h1 class="text-xl py-4 font-semibold">Senior Player</h1>
+                    <p class="text-base text-grey-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-primary text-blue-400 font-extrabold" style="--value:80;" role="progressbar">80%</div>
+                    <h1 class="text-xl py-4 font-semibold">Training Ground</h1>
+                    <p class="text-base text-grey-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+
+        </div>
+        
+    </main>
     <!-- Footer starts here -->
     <footer></footer>
 
