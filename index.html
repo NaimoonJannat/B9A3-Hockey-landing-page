@@ -445,9 +445,9 @@
                 <div class="divider"></div>
             </div>
             <!-- flex container  -->
-            <div class="flex flex-col lg:flex-row">
+            <div class="my-12 flex gap-6 flex-col lg:flex-row">
               <!-- Boxes section  -->
-              <div class="grid grid-cols-1 gap-5 w-1/3 p-9 border-2 border-gray-300 rounded-xl">
+              <div class="grid grid-cols-1 gap-5 w-full lg:w-1/3 p-9 border-2 border-gray-300 rounded-xl">
                 <!-- first box  -->
                 <div class="bg-[#BCED6D1A] p-8 rounded-xl space-y-3">
                   <img src="./Images/call.png" alt="">
@@ -468,10 +468,40 @@
                     </p>
                   <h1 class="text-lg font-extrabold">152/1 Mohakhali Wireless Gate </h1>
                 </div>
-               
-
               </div>
-              <div>Form</div>
+              <!-- Form section  -->
+              <div class="">
+                <!-- First row  -->
+                <div class="grid grid-cols-1 mb-10 gap-4 lg:grid-cols-2">
+                  <div>
+                    <label for="" class="text-xl font-bold mb-4">Your Name</label>
+                    <input type="text" placeholder="Enter your full name" class="input w-full bg-[#13131808]" />
+                  </div>
+                  <div>
+                    <label for="" class="text-xl font-bold mb-4">Email</label>
+                    <input type="email" placeholder="Enter your email" class="input w-full bg-[#13131808]" />
+                  </div>
+                </div>
+                <!-- Second row  -->
+                <div class="grid mb-10 grid-cols-1 gap-4 lg:grid-cols-2">
+                  <div>
+                    <label for="" class="text-xl font-bold mb-4">Subject</label>
+                    <input type="text" placeholder="Enter your subject" class="input w-full bg-[#13131808]" />
+                  </div>
+                  <div>
+                    <label for="" class="text-xl font-bold mb-4">Phone Number</label>
+                    <input type="text" placeholder="Enter your phone number" class="input w-full bg-[#13131808]" />
+                  </div>
+                </div>
+                <!-- third row  -->
+                <div class="mb-5 lg:mb-10">
+                  <label for="" class="text-xl font-bold mb-4">Message</label>
+                  <textarea class="textarea textarea-ghost textarea-lg w-full lg:h-[370px]
+                 bg-[#13131808]" placeholder="Enter your message"></textarea>
+                </div>
+                <button class="btn bg-primary-color text-white w-full">Send Message</button>
+              </div>
+              
 
             </div>
 
