@@ -177,7 +177,7 @@
                         <h2 class="text-2xl text-white font-extrabold">Junior Program</h2>
                       <p class="text-white text-base my-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                         enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                        <button class="btn w-1/3 bg-primary-color text-white">Register Now!</button>
+                        <button class="btn lg:w-1/3 bg-primary-color text-white">Register Now!</button>
                       </div>
                     </div>
                 </div>
@@ -189,7 +189,7 @@
                         <h2 class="text-2xl text-white font-extrabold">Teenager Program</h2>
                       <p class="text-white text-base my-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                         enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                        <button class="btn w-1/3 bg-primary-color text-white">Register Now!</button>
+                        <button class="btn lg:w-1/3 bg-primary-color text-white">Register Now!</button>
                       </div>
                     </div>
                 </div>
@@ -201,9 +201,8 @@
                             <h2 class="text-2xl text-white font-extrabold">Professional Program</h2>
                             <p class="text-white text-base my-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                            <button class="btn w-1/3 bg-primary-color text-white">Register Now!</button>
+                            <button class="btn lg:w-1/3 bg-primary-color text-white">Register Now!</button>
                         </div>
-                      
                     </div>
                 </div>
                 
@@ -509,21 +508,29 @@
         
     </main>
     <!-- Footer starts here -->
-    <footer class="lg:px-32 py-24 bg-secondary-color text-white text-base-content">
-        <div class="footer mx-auto w-11/12">
-            <div class="text-base lg:w-1/3  text-[#FFFFFF99]">
-                <h1 class="text-center text-3xl font-extrabold text-white">Get In Touch</h1>
+    <footer class="lg:px-32 py-24 bg-secondary-color text-base-content">
+        <div class="footer mx-auto flex flex-col lg:flex-row w-11/12">
+            <!-- box 1  -->
+            <div class="text-base lg:w-1/3 space-y-1 text-center lg:text-left  text-[#FFFFFF99]">
+                <div class="w-full flex justify-center lg:justify-normal items-center">
+                  <h1 class="text-3xl font-extrabold text-white">Get In Touch</h1>
+                </div>
                 <p>Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular text-primary-color fa-envelope"></i><p>hockeys@support.com</p>
+                <!-- icon container  -->
+                <div class=" w-11/12 lg:w-full">
+                  <div class="flex gap-2 mb-3 justify-center lg:justify-start items-center">
+                    <i class="fa-regular text-primary-color fa-envelope"></i><p>hockeys@support.com</p>
+                  </div>
+                  <div class="flex gap-2 justify-center items-center lg:justify-start">
+                    <i class="fa-solid text-primary-color fa-phone"></i><p>(+62) 123-321-543</p>
+                  </div>
                 </div>
-                <div class="flex gap-2">
-                  <i class="fa-solid text-primary-color fa-phone"></i><p>(+62) 123-321-543</p>
-                </div>
+                
               </div> 
-              <!-- company  -->
-              <div class="flex justify-between">
-                  <div class="text-[#FFFFFF99] flex flex-col space-y-1">
+              <!-- box- container  -->
+              <div class="lg:w-1/3 w-11/12 mx-auto text-center lg:text-left flex justify-around lg:justify-between">
+                <!-- box 2  -->
+                  <div class="text-[#FFFFFF99] flex flex-col space-y-2">
                       <header class="text-lg font-bold text-white">Company</header>
                       <a class="link link-hover">About us</a>
                       <a class="link link-hover">Leadership</a>   
@@ -531,8 +538,8 @@
                       <a class="link link-hover">News & Article</a>
                       <a class="link link-hover">Legal Notice</a>
                     </div> 
-                    <!-- Support  -->
-                    <div class="text-[#FFFFFF99] flex flex-col space-y-2">
+                    <!-- box 3  -->
+                    <div class="text-[#FFFFFF99] flex flex-col space-y-2.5">
                       <header class="text-lg font-bold text-white">Support</header> 
                       <a class="link link-hover">Help Center</a>
                       <a class="link link-hover">FAQ</a>
@@ -540,14 +547,16 @@
                       <a class="link link-hover">Contact Us</a>
                     </div>
               </div>
-                    <!-- services  -->
-              <div class="text-[#FFFFFF99] text-center mx-auto lg:text-left">
-                <header class="text-lg font-bold text-white">Services</header> 
+                    <!-- box 4  -->
+              <div class="text-[#FFFFFF99] mx-auto">
+                <div class="flex flex-col text-center lg:text-left space-y-2.5">
+                  <header class="text-lg font-bold text-white">Services</header> 
                 <a class="link link-hover">Academy</a>
                 <a class="link link-hover">Group Lesson</a>
                 <a class="link link-hover">Private Lesson</a>
                 <a class="link link-hover">Hockeys for kids</a>
                 <a class="link link-hover">Hockeys for Adult</a>
+                </div>
               </div>
         </div> 
       </footer>
